@@ -1,4 +1,12 @@
 Cc2::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/profile"
+
+  get "pages/account"
+
+  get "pages/help"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
