@@ -37,7 +37,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: cc2_test
+  database: cc2_development #ADRG-20110602 Should be cc2_test
   pool: 5
   username: cc2
   password:
